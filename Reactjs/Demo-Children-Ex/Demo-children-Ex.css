@@ -1,0 +1,76 @@
+a {
+  text-decoration:none;
+}
+.modalReport {
+  align-items: center;
+  max-width: 500px;
+  max-height: 300px;
+  margin: auto;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.viewAll {
+  width: auto;
+  height: 24px;
+  color: #999;
+  background-color: #fff;
+  padding: 5px;
+  margin: 0;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Middle {
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid #ccc;
+}
+.cashDiposits {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.cashDiposits .cashCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #F7B924;
+  background-color: #F7B924;
+  margin: 10px 0;
+}
+.cashContent p {
+  margin: 0;
+}
+.cashContent h1 {
+  margin: 0 10px;
+}
+.cashContent span {
+  font-size: 12px;
+}
+.cashContent .cashTitle {
+  font-size: 12px;
+}
+.Footer {
+
+}
+.viewCompleteReport {
+  width: auto;
+  height: 24px;
+  color: #fff;
+  background-color: #3F6AD8;
+  padding: 5px 16px;
+  margin: 10px 0 0 0 ;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  border: 1px solid #999;
+  border-radius: 15px;
+  cursor: pointer;
+}
